@@ -1,0 +1,176 @@
+/*TAG Selector*/
+body{
+    background-color:#E1EEDD;
+    margin:0;
+    text-align:center;
+    font-family: 'Julee', serif;
+}
+
+h1{
+    font-size:5.625rem; /*1 em is equal to 100%. 100% is equal to 16px*/
+    margin-top:0;
+    margin-bottom:0;
+    font-family:'Zeyada', sans-serif;
+    color:#183A1D;
+}
+
+h2{
+    color: #183A1D;
+    font-size:2rem;
+    font-family:'Open Sans', sans-serif;
+    margin: 20px auto 20px auto;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+hr{
+    border-style:none;
+    border-top-style:dotted;
+    border-width:10px;
+    border-color:gold;
+    width:15%;
+    margin: 50px auto 50px auto;
+}
+/*---------------------CLASSES----------------*/
+.top-container{
+    background-color:#E1EEDD;
+    padding-top:50px;
+    padding-bottom:20px;
+}
+.middle-container{
+    background-color:#E1EEDD;
+    padding-top:50px;
+}
+
+.bottom-container{
+    background-color:#183A1D;
+    padding-top:50px;
+    padding-bottom:20px;
+    margin-bottom:0px;
+    font-family:'Zedaya', sans-serif;
+}
+.pro{
+    text-decoration:underline;
+}
+
+.p-top{
+    font-size:1.5rem;
+    font-weight:normal;
+    font-family:'Open Sans', sans-serif;
+    color: #183A1D;
+}
+
+.profile{
+    font-size:20px;
+    font-family: 'Monserrat', sans-serif;
+    color:#183A1D;
+    width:50%;
+    margin: 0px auto 100px auto;
+}
+
+.bottom-megaman{
+    position:relative;
+    left:200px;
+    width:100x;
+    height:100px;
+}
+
+.electric{
+    width:500px;
+    height:500px;
+}
+
+.enemy{
+    width:300px;
+    height:100px;
+}
+
+.flight{
+    position:absolute;
+    left:10%;
+    top:50px;
+}
+
+.circular{
+    width:400px;
+    height:400px;
+    border-radius:100%;
+}
+
+.ms{
+    position:relative;
+    bottom:400px;
+    left:300px;
+}
+
+.logo{
+    height:150px;
+    width:150px;
+}
+
+.skill-row{
+    width:50%;
+    margin:80px auto 100px auto;
+    text-align:left;
+    line-height: 2;
+    font-size:0.9rem;
+}
+
+/*Next CSS Code is used to develop a buttom*/
+.btn{
+    background: #F0A04B;
+    background-image: -webkit-linear-gradient(top, #F99417, #F0A04B);
+    background-image: -moz-linear-gradient(top, #F99417, #F0A04B);
+    background-image: -ms-linear-gradient(top, #F99417, #F0A04B);
+    background-image: -o-linear-gradient(top, #F99417, #F0A04B);
+    background-image: linear-gradient(to bottom, #F99417, #F0A04B);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+/*The next css code is used when cursor is behind on the buttom*/
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.link{
+    font-family:'Zedaya', sans-serif;
+    color:#E1EEDD;
+    text-decoration-line:none;
+}
+
+.rights{
+    margin-bottom:0px;
+    color:white;
+}
+
+/*--------------------ID-----------------*/
+#photo2{
+    width:40%;
+    float:left;
+    margin-right:30px;
+}
+#photo3{
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+
+#final{
+    font-family: 'Playfair Display', sans-serif;
+}
+
